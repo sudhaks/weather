@@ -32,7 +32,7 @@ public class weather {
             JSONArray jPeriod = jPrope.getJSONArray("periods");
             JSONObject jF = jPeriod.getJSONObject(1);
             System.out.println("At Latitude = "+latitude +
-                    ", Logitude = " + longitude + " on "+
+                    ", Longitude = " + longitude + " on "+
                     jF.getString("name") +
                     " at time = " + jF.getString("startTime") +
                     " the Temperature is " + jF.getInt("temperature") +
